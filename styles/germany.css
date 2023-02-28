@@ -1,0 +1,32 @@
+.german-flag {
+    width:200px;
+    margin-top: 60px;
+    border: thin solid black;
+}
+
+#germany-cities, #germany-landmarks, #germany-celebrities{
+    background-color: rgba(86, 7, 146, 0.551);
+    color: rgb(14, 164, 245);
+    border: thin solid white;
+    box-shadow: 10px 10px 10px rgb(219, 17, 155);
+}
+
+#germany, .germany {
+    color:rgba(163, 194, 7, 0.685);
+    border: none;
+    font-family: cursive;
+}
+
+.germany {
+    font-size: 28px;
+    color: rgba(163, 194, 7, 0.685);
+    text-shadow: 1px 1px 0px white,2px 2px 10px red;
+}
+
+.germany-link {
+    color:rgba(163, 194, 7, 0.685);
+}
+
+.germany-link:hover {
+    color:white;
+}
