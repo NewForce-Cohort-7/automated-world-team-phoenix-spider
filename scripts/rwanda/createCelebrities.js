@@ -14,7 +14,7 @@ export const createCelebrities = () => {
     for (const celebrity of celebrities) {
 
         htmlString += `<li class="celebrity"> 
-                            <a class="south-korea-link" href="${celebrity.address}">${celebrity.name}</a> 
+                            <a class="rwanda-link" href="${celebrity.address}">${celebrity.name}</a> 
                         </li>`
     }
 
