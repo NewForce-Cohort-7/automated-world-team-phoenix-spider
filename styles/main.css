@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    background-color: black;
 }
 
 .country_container, .city_container, .landmark_container, .celebrity_container {
