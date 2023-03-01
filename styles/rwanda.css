@@ -1,7 +1,11 @@
 .rwanda-flag {
     width:200px;
-    margin-top: 60px;
-    border: thin solid black;
+    margin-top: 200px;
+    border: thin solid white;
+}
+
+.rwanda_title{
+    text-shadow: 0px 0px 10px lightpink, 0px 0px 10px lightpink, 1px 1px  white;
 }
 
 #rwanda-cities, #rwanda-landmarks, #rwanda-celebrities{
@@ -12,8 +16,7 @@
 }
 
 #rwanda, .rwanda {
-    color:rgb(69, 43, 162);
-    border: none;
+    color:rgb(184, 11, 11);
     font-family: sans-serif;
 }
 
@@ -25,10 +28,12 @@
 
 .rwanda-link {
     color:rgb(102, 8, 8);
+    min-width: 100px;
 }
 
 .rwanda-link:hover {
     color:white;
-    
 }
+
+
 

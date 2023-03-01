@@ -12,7 +12,7 @@ cities: [
 
     {
         name: "Kibuye",
-        address: ":https://www.tripadvisor.com/Attractions-g673815-Activities-Kibuye_Western_Province.html"
+        address: "https://www.tripadvisor.com/Attractions-g673815-Activities-Kibuye_Western_Province.html"
     },
 ],
 
@@ -31,7 +31,7 @@ landmarks: [
     {
         name: "Lake Kivu",
         address: "https://www.visitrwanda.com/destinations/lake-kivu/",
-        location:"Border between the Democratic Republic of the Congo and Rwanda"
+        location:"between the Democratic Republic of the Congo and Rwanda"
     },
 ],
 

@@ -1,0 +1,30 @@
+::-webkit-scrollbar {width: 13px}
+::-webkit-scrollbar-track {background: black}
+::-webkit-scrollbar-thumb {background: #3ffc00}
+
+body{
+    margin: 0;
+    background-color: black;
+}
+
+#container {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#intro-img{
+    width: 800px;
+    margin-top: 20px;
+}
+
+#dancingbaby-img {
+    height: 50vh;
+}
+
+#enter-img {
+    width: 200px;
+}

@@ -1,7 +1,7 @@
 .south-korea-flag {
     width:200px;
-    margin-top: 60px;
-    border: thin solid black;
+    margin-top: 200px;
+    border: thin solid white;
 }
 
 #south-korea-cities, #south-korea-landmarks, #south-korea-celebrities{
@@ -13,7 +13,6 @@
 
 #south-korea, .south-korea {
     color:red;
-    border: none;
     font-family: sans-serif;
 }
 
