@@ -14,7 +14,7 @@ export const createLandmarks = () => {
     for (const landmark of landmarks) {
 
         htmlString += `<li class="landmark"> 
-                            <a class="germany-link" href="${landmark.address}">${landmark.name}</a> in ${landmark.location}
+                            <a class="germany-link" href="${landmark.address}">${landmark.name} in ${landmark.location}</a>
                         </li>`
     }
 

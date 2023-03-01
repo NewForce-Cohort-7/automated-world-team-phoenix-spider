@@ -1,7 +1,7 @@
 .vietnam-flag {
     width:200px;
-    margin-top: 60px;
-    border: thin solid black;
+    margin-top: 200px;
+    border: thin solid white;
 }
 
 #vietnam-cities, #vietnam-landmarks, #vietnam-celebrities{
@@ -13,7 +13,6 @@
 
 #vietnam, .vietnam {
     color:gold;
-    border: none;
     font-family: sans-serif;
 }
 

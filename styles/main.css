@@ -1,18 +1,63 @@
+::-webkit-scrollbar {width: 13px}
+::-webkit-scrollbar-track {background: black}
+::-webkit-scrollbar-thumb {background: white}
+
 body{
     text-align: center;
+    margin: 0;
     background-color: black;
 }
 
-.country_container, .city_container, .landmark_container, .celebrity_container {
+.header {
+    background-color: black;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    border: thin solid blue;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    border-bottom: thin solid white;
+    box-shadow: 0 4px 6px black;
+}
+
+#title {
+    width: 550px;
+    margin-top: 15px;
+}
+
+.link_container {
+    display: flex;
+    align-items: end;
+    margin-right: 10px;
+    min-width: 400px;
+}
+
+.country_link{
+    margin: 5px;
+}
+
+.info_container, .city_container, .landmark_container, .celebrity_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.country_container {
+    height: 90vh;
+    min-width: 900px;
 }
 
 .city_container, .landmark_container, .celebrity_container, ul{
     flex-direction: column;
     padding: 5px;
+}
+
+
+.city_container, .landmark_container, .celebrity_container{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 ul, li {
@@ -30,7 +75,22 @@ ul, li {
 
 a {
     text-decoration: none;
-    color: black;
     font-weight: bold;
     margin: 2px;
+    margin-bottom: 5px;
+}
+
+.link_container > a {
+    color: white;
+    padding: 5px;
+    border: thin solid black;
+}
+
+.link_container > a:hover {
+    border: thin solid white;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 30px;
 }
